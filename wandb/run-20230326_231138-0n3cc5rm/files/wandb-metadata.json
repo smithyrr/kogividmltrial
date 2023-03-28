@@ -1,0 +1,71 @@
+{
+    "os": "Linux-5.15.0-67-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-03-26T23:11:39.640830",
+    "startedAt": "2023-03-26T23:11:38.375240",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/cognitron/kogivid/kogivid.py",
+    "codePath": "kogivid.py",
+    "host": "cognitron",
+    "username": "cognitron",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2132.725,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2132.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2132.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2132.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2132.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2132.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2132.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2132.725,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2132.725,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 488.5780792236328,
+        "used": 136.60516357421875
+    },
+    "memory": {
+        "total": 9.447628021240234
+    }
+}

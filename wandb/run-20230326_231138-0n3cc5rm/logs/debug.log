@@ -1,0 +1,26 @@
+2023-03-26 23:11:38,379 INFO    MainThread:149271 [wandb_setup.py:_flush():76] Configure stats pid to 149271
+2023-03-26 23:11:38,380 INFO    MainThread:149271 [wandb_setup.py:_flush():76] Loading settings from /home/cognitron/.config/wandb/settings
+2023-03-26 23:11:38,380 INFO    MainThread:149271 [wandb_setup.py:_flush():76] Loading settings from /home/cognitron/kogivid/wandb/settings
+2023-03-26 23:11:38,380 INFO    MainThread:149271 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-26 23:11:38,380 INFO    MainThread:149271 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-26 23:11:38,380 INFO    MainThread:149271 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'kogivid.py', 'program': '/home/cognitron/kogivid/kogivid.py'}
+2023-03-26 23:11:38,380 INFO    MainThread:149271 [wandb_init.py:_log_setup():506] Logging user logs to /home/cognitron/kogivid/wandb/run-20230326_231138-0n3cc5rm/logs/debug.log
+2023-03-26 23:11:38,381 INFO    MainThread:149271 [wandb_init.py:_log_setup():507] Logging internal logs to /home/cognitron/kogivid/wandb/run-20230326_231138-0n3cc5rm/logs/debug-internal.log
+2023-03-26 23:11:38,381 INFO    MainThread:149271 [wandb_init.py:init():546] calling init triggers
+2023-03-26 23:11:38,381 INFO    MainThread:149271 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-03-26 23:11:38,382 INFO    MainThread:149271 [wandb_init.py:init():602] starting backend
+2023-03-26 23:11:38,382 INFO    MainThread:149271 [wandb_init.py:init():606] setting up manager
+2023-03-26 23:11:38,389 INFO    MainThread:149271 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-26 23:11:38,394 INFO    MainThread:149271 [wandb_init.py:init():613] backend started and connected
+2023-03-26 23:11:38,399 INFO    MainThread:149271 [wandb_init.py:init():701] updated telemetry
+2023-03-26 23:11:38,401 INFO    MainThread:149271 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-26 23:11:39,272 INFO    MainThread:149271 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-26 23:11:39,603 INFO    MainThread:149271 [wandb_run.py:_on_init():2142] got version response 
+2023-03-26 23:11:39,603 INFO    MainThread:149271 [wandb_init.py:init():789] starting run threads in backend
+2023-03-26 23:11:39,674 INFO    MainThread:149271 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-26 23:11:39,675 INFO    MainThread:149271 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-26 23:11:39,675 INFO    MainThread:149271 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-26 23:11:39,676 INFO    MainThread:149271 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-26 23:11:39,677 INFO    MainThread:149271 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-26 23:11:49,225 WARNING MsgRouterThr:149271 [router.py:message_loop():77] message_loop has been closed

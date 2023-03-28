@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/cognitron/kogivid/kogivid.py", line 17, in <module>
+    dataset = UCF101(data_path, annotation_path=None, frames_per_clip=16, step_between_clips=1, transform=transform)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/datasets/ucf101.py", line 79, in __init__
+    self.classes, class_to_idx = find_classes(self.root)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/datasets/folder.py", line 42, in find_classes
+    raise FileNotFoundError(f"Couldn't find any class folder in {directory}.")
+FileNotFoundError: Couldn't find any class folder in /home/cognitron/kogivid/UCF1011/UCF-101/resized_videos.
+Traceback (most recent call last):
+  File "/home/cognitron/kogivid/kogivid.py", line 17, in <module>
+    dataset = UCF101(data_path, annotation_path=None, frames_per_clip=16, step_between_clips=1, transform=transform)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/datasets/ucf101.py", line 79, in __init__
+    self.classes, class_to_idx = find_classes(self.root)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/datasets/folder.py", line 42, in find_classes
+    raise FileNotFoundError(f"Couldn't find any class folder in {directory}.")
+FileNotFoundError: Couldn't find any class folder in /home/cognitron/kogivid/UCF1011/UCF-101/resized_videos.

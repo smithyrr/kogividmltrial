@@ -1,0 +1,181 @@
+2023-03-26 22:26:25,154 INFO    StreamThr :148646 [internal.py:wandb_internal():87] W&B internal server running at pid: 148646, started at: 2023-03-26 22:26:25.154033
+2023-03-26 22:26:25,160 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: status
+2023-03-26 22:26:25,164 INFO    WriterThread:148646 [datastore.py:open_for_write():85] open: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/run-q2b0y3z8.wandb
+2023-03-26 22:26:25,168 DEBUG   SenderThread:148646 [sender.py:send():336] send: header
+2023-03-26 22:26:25,168 DEBUG   SenderThread:148646 [sender.py:send():336] send: run
+2023-03-26 22:26:26,069 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: check_version
+2023-03-26 22:26:26,070 INFO    SenderThread:148646 [dir_watcher.py:__init__():219] watching files in: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files
+2023-03-26 22:26:26,070 INFO    SenderThread:148646 [sender.py:_start_run_threads():1078] run started: q2b0y3z8 with start time 1679869585.151728
+2023-03-26 22:26:26,070 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: summary_record
+2023-03-26 22:26:26,072 INFO    SenderThread:148646 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-26 22:26:26,072 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: check_version
+2023-03-26 22:26:26,421 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: run_start
+2023-03-26 22:26:26,425 DEBUG   HandlerThread:148646 [system_info.py:__init__():31] System info init
+2023-03-26 22:26:26,425 DEBUG   HandlerThread:148646 [system_info.py:__init__():46] System info init done
+2023-03-26 22:26:26,425 INFO    HandlerThread:148646 [system_monitor.py:start():183] Starting system monitor
+2023-03-26 22:26:26,426 INFO    SystemMonitor:148646 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-26 22:26:26,426 INFO    HandlerThread:148646 [system_monitor.py:probe():204] Collecting system info
+2023-03-26 22:26:26,429 INFO    SystemMonitor:148646 [interfaces.py:start():187] Started cpu monitoring
+2023-03-26 22:26:26,430 INFO    SystemMonitor:148646 [interfaces.py:start():187] Started disk monitoring
+2023-03-26 22:26:26,432 INFO    SystemMonitor:148646 [interfaces.py:start():187] Started memory monitoring
+2023-03-26 22:26:26,434 INFO    SystemMonitor:148646 [interfaces.py:start():187] Started network monitoring
+2023-03-26 22:26:26,442 DEBUG   HandlerThread:148646 [system_info.py:probe():195] Probing system
+2023-03-26 22:26:26,445 DEBUG   HandlerThread:148646 [git.py:repo():40] git repository is invalid
+2023-03-26 22:26:26,445 DEBUG   HandlerThread:148646 [system_info.py:probe():240] Probing system done
+2023-03-26 22:26:26,445 DEBUG   HandlerThread:148646 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-67-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-03-26T22:26:26.442613', 'startedAt': '2023-03-26T22:26:25.132973', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/cognitron/kogivid/kogivid.py', 'codePath': 'kogivid.py', 'host': 'cognitron', 'username': 'cognitron', 'executable': '/usr/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2132.725, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2132.725, 'min': 0.0, 'max': 0.0}, {'current': 2132.725, 'min': 0.0, 'max': 0.0}, {'current': 2132.725, 'min': 0.0, 'max': 0.0}, {'current': 2132.725, 'min': 0.0, 'max': 0.0}, {'current': 2132.725, 'min': 0.0, 'max': 0.0}, {'current': 2132.725, 'min': 0.0, 'max': 0.0}, {'current': 2132.725, 'min': 0.0, 'max': 0.0}, {'current': 2132.725, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 488.5780792236328, 'used': 136.60235214233398}, 'memory': {'total': 9.447628021240234}}
+2023-03-26 22:26:26,446 INFO    HandlerThread:148646 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-26 22:26:26,446 INFO    HandlerThread:148646 [system_monitor.py:probe():217] Publishing system info
+2023-03-26 22:26:26,446 DEBUG   HandlerThread:148646 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-26 22:26:26,447 DEBUG   HandlerThread:148646 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-26 22:26:26,448 INFO    HandlerThread:148646 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-26 22:26:26,463 DEBUG   SenderThread:148646 [sender.py:send():336] send: files
+2023-03-26 22:26:26,464 INFO    SenderThread:148646 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-26 22:26:26,483 DEBUG   SenderThread:148646 [sender.py:send():336] send: telemetry
+2023-03-26 22:26:26,484 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-26 22:26:26,486 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: stop_status
+2023-03-26 22:26:27,073 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/wandb-summary.json
+2023-03-26 22:26:27,075 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/wandb-metadata.json
+2023-03-26 22:26:27,076 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/requirements.txt
+2023-03-26 22:26:27,733 INFO    wandb-upload_0:148646 [upload_job.py:push():138] Uploaded file /tmp/tmp004v5t49wandb/vveh9pt8-wandb-metadata.json
+2023-03-26 22:26:28,070 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_created():278] file/dir created: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/output.log
+2023-03-26 22:26:30,072 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/output.log
+2023-03-26 22:26:30,360 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: status_report
+2023-03-26 22:26:32,081 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/output.log
+2023-03-26 22:26:32,116 DEBUG   SenderThread:148646 [sender.py:send():336] send: exit
+2023-03-26 22:26:32,116 INFO    SenderThread:148646 [sender.py:send_exit():559] handling exit code: 255
+2023-03-26 22:26:32,117 INFO    SenderThread:148646 [sender.py:send_exit():561] handling runtime: 5
+2023-03-26 22:26:32,117 INFO    SenderThread:148646 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-26 22:26:32,118 INFO    SenderThread:148646 [sender.py:send_exit():567] send defer
+2023-03-26 22:26:32,118 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:32,119 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-26 22:26:32,119 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:32,119 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-26 22:26:32,120 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 1
+2023-03-26 22:26:32,120 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:32,120 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-26 22:26:32,121 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:32,121 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-26 22:26:32,121 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 2
+2023-03-26 22:26:32,122 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:32,122 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-26 22:26:32,122 INFO    HandlerThread:148646 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-26 22:26:32,124 DEBUG   SystemMonitor:148646 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-26 22:26:32,125 DEBUG   SystemMonitor:148646 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-26 22:26:32,125 DEBUG   SystemMonitor:148646 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-26 22:26:32,127 INFO    HandlerThread:148646 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-26 22:26:32,127 INFO    HandlerThread:148646 [interfaces.py:finish():199] Joined disk monitor
+2023-03-26 22:26:32,127 INFO    HandlerThread:148646 [interfaces.py:finish():199] Joined memory monitor
+2023-03-26 22:26:32,127 INFO    HandlerThread:148646 [interfaces.py:finish():199] Joined network monitor
+2023-03-26 22:26:32,129 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:32,129 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-26 22:26:32,129 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 3
+2023-03-26 22:26:32,129 DEBUG   SenderThread:148646 [sender.py:send():336] send: stats
+2023-03-26 22:26:32,130 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:32,130 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-26 22:26:32,131 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:32,131 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-26 22:26:32,131 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 4
+2023-03-26 22:26:32,132 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:32,132 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-26 22:26:32,133 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:32,133 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-26 22:26:32,133 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 5
+2023-03-26 22:26:32,134 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:32,134 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-26 22:26:32,135 DEBUG   SenderThread:148646 [sender.py:send():336] send: summary
+2023-03-26 22:26:32,139 INFO    SenderThread:148646 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-26 22:26:32,139 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:32,139 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-26 22:26:32,139 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 6
+2023-03-26 22:26:32,140 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:32,140 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-26 22:26:32,141 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:32,141 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-26 22:26:32,146 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: status_report
+2023-03-26 22:26:32,569 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 7
+2023-03-26 22:26:32,570 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:32,570 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-26 22:26:32,571 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:32,572 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-26 22:26:33,082 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/wandb-summary.json
+2023-03-26 22:26:33,083 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/config.yaml
+2023-03-26 22:26:33,117 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-26 22:26:33,237 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 8
+2023-03-26 22:26:33,238 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: poll_exit
+2023-03-26 22:26:33,238 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:33,239 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-26 22:26:33,244 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:33,245 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-26 22:26:33,246 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 9
+2023-03-26 22:26:33,246 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:33,246 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-26 22:26:33,247 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:33,247 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-26 22:26:33,247 INFO    SenderThread:148646 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-26 22:26:34,083 INFO    Thread-13 :148646 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/output.log
+2023-03-26 22:26:34,084 INFO    SenderThread:148646 [dir_watcher.py:finish():395] scan: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files
+2023-03-26 22:26:34,085 INFO    SenderThread:148646 [dir_watcher.py:finish():409] scan save: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/wandb-metadata.json wandb-metadata.json
+2023-03-26 22:26:34,085 INFO    SenderThread:148646 [dir_watcher.py:finish():409] scan save: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/requirements.txt requirements.txt
+2023-03-26 22:26:34,085 INFO    SenderThread:148646 [dir_watcher.py:finish():409] scan save: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/output.log output.log
+2023-03-26 22:26:34,086 INFO    SenderThread:148646 [dir_watcher.py:finish():409] scan save: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/wandb-summary.json wandb-summary.json
+2023-03-26 22:26:34,086 INFO    SenderThread:148646 [dir_watcher.py:finish():409] scan save: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/config.yaml config.yaml
+2023-03-26 22:26:34,086 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 10
+2023-03-26 22:26:34,087 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:34,087 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-26 22:26:34,088 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:34,089 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-26 22:26:34,089 INFO    SenderThread:148646 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-26 22:26:34,122 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-26 22:26:34,123 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: poll_exit
+2023-03-26 22:26:35,124 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-26 22:26:35,125 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: poll_exit
+2023-03-26 22:26:36,127 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-26 22:26:36,128 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: poll_exit
+2023-03-26 22:26:36,557 INFO    wandb-upload_1:148646 [upload_job.py:push():138] Uploaded file /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/requirements.txt
+2023-03-26 22:26:37,130 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-26 22:26:37,132 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: poll_exit
+2023-03-26 22:26:37,788 INFO    wandb-upload_3:148646 [upload_job.py:push():138] Uploaded file /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/config.yaml
+2023-03-26 22:26:37,794 INFO    wandb-upload_0:148646 [upload_job.py:push():138] Uploaded file /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/wandb-summary.json
+2023-03-26 22:26:37,841 INFO    wandb-upload_2:148646 [upload_job.py:push():138] Uploaded file /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/files/output.log
+2023-03-26 22:26:38,042 INFO    Thread-12 (_thread_body):148646 [sender.py:transition_state():587] send defer: 11
+2023-03-26 22:26:38,042 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:38,042 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-26 22:26:38,043 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:38,043 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-26 22:26:38,044 INFO    SenderThread:148646 [file_pusher.py:join():169] waiting for file pusher
+2023-03-26 22:26:38,044 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 12
+2023-03-26 22:26:38,044 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:38,044 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-26 22:26:38,045 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:38,045 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-26 22:26:38,133 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-26 22:26:38,198 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 13
+2023-03-26 22:26:38,199 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: poll_exit
+2023-03-26 22:26:38,200 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:38,200 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-26 22:26:38,201 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:38,201 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-26 22:26:38,201 INFO    SenderThread:148646 [sender.py:transition_state():587] send defer: 14
+2023-03-26 22:26:38,202 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: defer
+2023-03-26 22:26:38,202 INFO    HandlerThread:148646 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-26 22:26:38,203 DEBUG   SenderThread:148646 [sender.py:send():336] send: final
+2023-03-26 22:26:38,204 DEBUG   SenderThread:148646 [sender.py:send():336] send: footer
+2023-03-26 22:26:38,204 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: defer
+2023-03-26 22:26:38,204 INFO    SenderThread:148646 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-26 22:26:38,205 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-26 22:26:38,207 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: poll_exit
+2023-03-26 22:26:38,207 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-26 22:26:38,208 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: poll_exit
+2023-03-26 22:26:38,209 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: server_info
+2023-03-26 22:26:38,210 DEBUG   SenderThread:148646 [sender.py:send_request():363] send_request: server_info
+2023-03-26 22:26:38,217 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-26 22:26:38,217 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-26 22:26:38,969 INFO    MainThread:148646 [wandb_run.py:_footer_history_summary_info():3422] rendering history
+2023-03-26 22:26:38,970 INFO    MainThread:148646 [wandb_run.py:_footer_history_summary_info():3454] rendering summary
+2023-03-26 22:26:38,970 INFO    MainThread:148646 [wandb_run.py:_footer_sync_info():3380] logging synced files
+2023-03-26 22:26:38,971 DEBUG   HandlerThread:148646 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-26 22:26:38,971 INFO    HandlerThread:148646 [handler.py:finish():842] shutting down handler
+2023-03-26 22:26:39,210 INFO    WriterThread:148646 [datastore.py:close():298] close: /home/cognitron/kogivid/wandb/run-20230326_222625-q2b0y3z8/run-q2b0y3z8.wandb
+2023-03-26 22:26:39,969 INFO    SenderThread:148646 [sender.py:finish():1504] shutting down sender
+2023-03-26 22:26:39,969 INFO    SenderThread:148646 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-26 22:26:39,970 INFO    SenderThread:148646 [file_pusher.py:join():169] waiting for file pusher

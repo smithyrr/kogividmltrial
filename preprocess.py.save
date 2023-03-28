@@ -1,0 +1,73 @@
+
+import os
+import cv2
+import torch
+import numpy as np
+from torchvision import transforms
+from torch.utils.data import Dataset
+
+# define the path to the UCF101 dataset
+data_path = '/home/cognitron/kogivid/UCF1011/UCF-101'
+
+class VideoDataset(Dataset):
+    def __init__(self, data_path, transform=None):
+        self.data_path = data_path
+        self.transform = transform
+        self.video_list = []
+        self.labels = []
+
+        # loop over the directories and get list of all video files and their labels
+        for dir in os.listdir(self.data_path):
+            dir_path = os.path.join(self.data_path, dir)
+            for file in os.listdir(dir_path):
+                file_path = os.path.join(dir_path, file)
+                self.video_list.append(file_path)
+                self.labels.append(dir)
+
+    def __len__(self):
+        return len(self.video_list)
+
+
+        # load the video and convert to a sequence of frames
+        video = cv2.VideoCapture(video_path)
+        frames = []
+        while True:
+            ret, frame = video.read()
+            if not ret:
+                break
+            # convert the frame from BGR to RGB format
+            frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            if self.transform:
+                # apply the specified transform to the frame
+                frame = self.transform(frame)
+            # append the transformed frame to the list of frames
+            frames.append(frame)
+
+        # convert the list of frames to a tensor and return along with the label
+        frames = torch.stack(frames, dim=0)
+        label = self.labels[idx]
+        return frames, label
+
+# define the transform to apply to each video frame
+transform = transforms.Compose([
+    transforms.Resize((256, 256)),
+    transforms.ToTensor(),
+])
+
+# create an instance of the VideoDataset class
+dataset = VideoDataset(data_path=data_path, transform=transform)
+
+# create a data loader for the dataset
+batch_size = 32
+data_loader = torch.utils.data.DataLoader(
+    dataset,
+    batch_size=batch_size,
+    shuffle=True,
+    num_workers=4,
+    pin_memory=True
+)
+
+# iterate over the data loader to preprocess the video data
+for i, (frames, labels) in enumerate(data_loader):
+    # convert the frames to tensors and preprocess them as needed
+    pass

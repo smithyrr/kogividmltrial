@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/cognitron/kogivid/kogivid.py", line 25, in <module>
+    trainset = torchvision.datasets.DatasetFolder(root='./kogivid/UCF1011/UCF-101', loader=torchvision.datasets.video_utils.video_loader, extensions=('avi',),
+AttributeError: module 'torchvision.datasets.video_utils' has no attribute 'video_loader'
+Traceback (most recent call last):
+  File "/home/cognitron/kogivid/kogivid.py", line 25, in <module>
+    trainset = torchvision.datasets.DatasetFolder(root='./kogivid/UCF1011/UCF-101', loader=torchvision.datasets.video_utils.video_loader, extensions=('avi',),
+AttributeError: module 'torchvision.datasets.video_utils' has no attribute 'video_loader'

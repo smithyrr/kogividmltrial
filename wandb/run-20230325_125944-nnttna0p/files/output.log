@@ -1,0 +1,76 @@
+Traceback (most recent call last):
+  File "/home/cognitron/kogivid/kogivid.py", line 129, in <module>
+    train(model, trainloader, criterion, optimizer, num_epochs=10)
+  File "/home/cognitron/kogivid/kogivid.py", line 91, in train
+    for i, data in enumerate(dataloader, 0):
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1333, in _next_data
+    return self._process_data(data)
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1359, in _process_data
+    data.reraise()
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/_utils.py", line 543, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/cognitron/kogivid/kogivid.py", line 55, in __getitem__
+    video = torch.stack([self.transform(frame) for frame in frames], dim=0)
+  File "/home/cognitron/kogivid/kogivid.py", line 55, in <listcomp>
+    video = torch.stack([self.transform(frame) for frame in frames], dim=0)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/transforms.py", line 346, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/functional.py", line 462, in resize
+    _, image_height, image_width = get_dimensions(img)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/functional.py", line 75, in get_dimensions
+    return F_pil.get_dimensions(img)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/functional_pil.py", line 33, in get_dimensions
+    raise TypeError(f"Unexpected type {type(img)}")
+TypeError: Unexpected type <class 'numpy.ndarray'>
+Traceback (most recent call last):
+  File "/home/cognitron/kogivid/kogivid.py", line 129, in <module>
+    train(model, trainloader, criterion, optimizer, num_epochs=10)
+  File "/home/cognitron/kogivid/kogivid.py", line 91, in train
+    for i, data in enumerate(dataloader, 0):
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1333, in _next_data
+    return self._process_data(data)
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 1359, in _process_data
+    data.reraise()
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/_utils.py", line 543, in reraise
+    raise exception
+TypeError: Caught TypeError in DataLoader worker process 0.
+Original Traceback (most recent call last):
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/_utils/worker.py", line 302, in _worker_loop
+    data = fetcher.fetch(index)
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 58, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/cognitron/kogivid/kogivid.py", line 55, in __getitem__
+    video = torch.stack([self.transform(frame) for frame in frames], dim=0)
+  File "/home/cognitron/kogivid/kogivid.py", line 55, in <listcomp>
+    video = torch.stack([self.transform(frame) for frame in frames], dim=0)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/home/cognitron/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/transforms.py", line 346, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/functional.py", line 462, in resize
+    _, image_height, image_width = get_dimensions(img)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/functional.py", line 75, in get_dimensions
+    return F_pil.get_dimensions(img)
+  File "/usr/local/lib/python3.10/dist-packages/torchvision/transforms/functional_pil.py", line 33, in get_dimensions
+    raise TypeError(f"Unexpected type {type(img)}")
+TypeError: Unexpected type <class 'numpy.ndarray'>

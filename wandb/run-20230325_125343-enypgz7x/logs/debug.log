@@ -1,0 +1,20 @@
+2023-03-25 12:53:43,360 INFO    MainThread:11856 [wandb_setup.py:_flush():76] Configure stats pid to 11856
+2023-03-25 12:53:43,360 INFO    MainThread:11856 [wandb_setup.py:_flush():76] Loading settings from /home/cognitron/.config/wandb/settings
+2023-03-25 12:53:43,361 INFO    MainThread:11856 [wandb_setup.py:_flush():76] Loading settings from /home/cognitron/kogivid/wandb/settings
+2023-03-25 12:53:43,361 INFO    MainThread:11856 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-25 12:53:43,361 INFO    MainThread:11856 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'kogivid.py', 'program': '/home/cognitron/kogivid/kogivid.py'}
+2023-03-25 12:53:43,361 INFO    MainThread:11856 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-03-25 12:53:43,361 INFO    MainThread:11856 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2023-03-25 12:53:43,361 INFO    MainThread:11856 [wandb_init.py:_log_setup():506] Logging user logs to /home/cognitron/kogivid/wandb/run-20230325_125343-enypgz7x/logs/debug.log
+2023-03-25 12:53:43,362 INFO    MainThread:11856 [wandb_init.py:_log_setup():507] Logging internal logs to /home/cognitron/kogivid/wandb/run-20230325_125343-enypgz7x/logs/debug-internal.log
+2023-03-25 12:53:43,362 INFO    MainThread:11856 [wandb_init.py:init():546] calling init triggers
+2023-03-25 12:53:43,362 INFO    MainThread:11856 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-03-25 12:53:43,363 INFO    MainThread:11856 [wandb_init.py:init():602] starting backend
+2023-03-25 12:53:43,363 INFO    MainThread:11856 [wandb_init.py:init():606] setting up manager
+2023-03-25 12:53:43,376 INFO    MainThread:11856 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-25 12:53:43,386 INFO    MainThread:11856 [wandb_init.py:init():613] backend started and connected
+2023-03-25 12:53:43,396 INFO    MainThread:11856 [wandb_init.py:init():701] updated telemetry
+2023-03-25 12:53:43,397 INFO    MainThread:11856 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-25 12:53:44,252 ERROR   MainThread:11856 [wandb_init.py:init():764] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2023-03-25 12:53:45,309 WARNING MsgRouterThr:11856 [router.py:message_loop():77] message_loop has been closed
